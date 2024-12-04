@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2024-12-2
+  Info:
+    - Adjusted the initial camera angle when opening the star map.
+    - Fixed compatibility with Maraxsis.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2024-12-1
+  Info:
+    - Add compatibility with Factorissimo 3
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-12-1
+  Info:
+    - Initial release
