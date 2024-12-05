@@ -31,7 +31,7 @@ jobs:
     - name: Manage files
       run: |
         mkdir -p build/${{ steps.getname.outputs.value }}
-        cp --parents -R ./* ./build/${{ steps.getname.outputs.value }}
+        cp --parents -R !(./build) build/${{ steps.getname.outputs.value }}
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.6
       with:
