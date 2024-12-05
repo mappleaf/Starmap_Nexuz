@@ -37,7 +37,7 @@ jobs:
       with:
         type: 'zip'
         directory: "./build"
-        path: "./build/${{ steps.getname.outputs.value }}"
+        # path: "./${{ steps.getname.outputs.value }}"
         filename: "${{ steps.getname.outputs.value }}_${{ steps.getversion.outputs.value }}.zip"
         exclusions: '*.git* *.md *.sh *.vscode *.releaserc'
     - name: Upload Release
