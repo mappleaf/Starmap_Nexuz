@@ -28,12 +28,16 @@ jobs:
       run: echo ${{ steps.getname.outputs.value }}
     - name: Echo version
       run: echo ${{ steps.getversion.outputs.value }}
+    - name: Manage files
+      run: |
+        mkdir ${{ steps.getname.outputs.value }}
+        mv !(${{ steps.getname.outputs.value }}) ${{ steps.getname.outputs.value }}
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.6
       with:
         type: 'zip'
         filename: "${{ steps.getname.outputs.value }}_${{ steps.getversion.outputs.value }}.zip"
-        exclusions: '*.git* *.md /.github *.sh /.vscode /.releaserc'
+        exclusions: '*.git* *.md /.github *.sh /.vscode /.releaserc /temp'
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
