@@ -30,8 +30,9 @@ jobs:
       run: echo ${{ steps.getversion.outputs.value }}
     - name: Manage files
       run: |
-        mkdir ${{ steps.getname.outputs.value }}
-        mv !(${{ steps.getname.outputs.value }}) ${{ steps.getname.outputs.value }}
+        mkdir /temp/build/${{ steps.getname.outputs.value }}
+        mv * /temp/build/${{ steps.getname.outputs.value }}
+        mv /temp/build/${{ steps.getname.outputs.value }} .
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.6
       with:
