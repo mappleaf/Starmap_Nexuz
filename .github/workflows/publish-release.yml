@@ -30,15 +30,15 @@ jobs:
       run: echo ${{ steps.getversion.outputs.value }}
     - name: Manage files
       run: |
-        mkdir -p /temp/build/${{ steps.getname.outputs.value }}
-        mv * /temp/build/${{ steps.getname.outputs.value }}
-        mv /temp/build/${{ steps.getname.outputs.value }} .
+        mkdir -p build/${{ steps.getname.outputs.value }}
+        cp --parents -R ./* ./build/${{ steps.getname.outputs.value }}
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.6
       with:
         type: 'zip'
+        path: "./build/${{ steps.getname.outputs.value }}"
         filename: "${{ steps.getname.outputs.value }}_${{ steps.getversion.outputs.value }}.zip"
-        exclusions: '*.git* *.md /.github *.sh /.vscode /.releaserc /temp'
+        exclusions: '*.git* *.md /.github *.sh /.vscode /.releaserc /temp /build'
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
