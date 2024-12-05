@@ -67,7 +67,7 @@ data:extend({
 
 data:extend {{
     type = "space-connection",
-    name = "sye-nauvis-ne-sye-nexuz-sw",
+    name = "sse-sye-nexuz-sw",
     subgroup = "planet-connections",
     icon = "__space-age__/graphics/icons/solar-system-edge.png", 
     from = "solar-system-edge",
@@ -88,16 +88,16 @@ data:extend(
       icon_size = 256,  -- 图标的大小
       essential = true,  -- 这项技术是否关键，可能会影响显示或解锁顺序
       effects = {  -- 技术解锁的效果
-        {
-          type = "unlock-space-location",  -- 解锁空间位置
-          space_location = "sye-nauvis-ne",  -- 指定解锁的行星
-          use_icon_overlay_constant = false  -- 是否使用图标叠加效果
-        },
+        -- {
+        --   type = "unlock-space-location",  -- 解锁空间位置
+        --   space_location = "sye-nauvis-ne",  -- 指定解锁的行星
+        --   use_icon_overlay_constant = false  -- 是否使用图标叠加效果
+        -- },
         {
             type = "unlock-space-location",  -- 解锁空间位置
             space_location = "sye-nexuz-sw",  -- 指定解锁的行星
             use_icon_overlay_constant = false  -- 是否使用图标叠加效果
-          }
+        }
       },
       prerequisites = {"rocket-turret", "advanced-asteroid-processing", "asteroid-reprocessing", "electromagnetic-science-pack"},      -- 需要先完成的前置技术
       unit = {  -- 技术研究的成本
