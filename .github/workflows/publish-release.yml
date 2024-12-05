@@ -36,9 +36,10 @@ jobs:
       uses: thedoctor0/zip-release@0.7.6
       with:
         type: 'zip'
+        directory: "./build"
         path: "./build/${{ steps.getname.outputs.value }}"
         filename: "${{ steps.getname.outputs.value }}_${{ steps.getversion.outputs.value }}.zip"
-        exclusions: '*.git* *.md /.github *.sh /.vscode /.releaserc /temp /build'
+        exclusions: '*.git* *.md *.sh *.vscode *.releaserc'
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
