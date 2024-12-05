@@ -30,7 +30,7 @@ jobs:
       run: echo ${{ steps.getversion.outputs.value }}
     - name: Manage files
       run: |
-        mkdir /temp/build/${{ steps.getname.outputs.value }}
+        mkdir -p /temp/build/${{ steps.getname.outputs.value }}
         mv * /temp/build/${{ steps.getname.outputs.value }}
         mv /temp/build/${{ steps.getname.outputs.value }} .
     - name: Archive Release
