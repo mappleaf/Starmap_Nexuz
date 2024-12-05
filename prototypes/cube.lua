@@ -1,0 +1,25 @@
+-- local planet = table.deepcopy(data.raw["planet"]["nauvis"])
+-- planet.name = "cube2"  
+-- planet.distance = 1035  
+-- planet.orientation = 0.13  
+-- planet.localised_name = "?"  
+-- planet.draw_orbit = false  
+-- planet.icon = "__Starmap_Nexuz__/graphics/icons/cube.png"  
+-- planet.icon_size = 1381  
+-- planet.starmap_icon = "__Starmap_Nexuz__/graphics/icons/cube.png"  
+-- planet.starmap_icon_size = 1381  
+-- planet.magnitude = 10.0  
+-- data:extend { planet }
+
+-- local planet = table.deepcopy(data.raw["planet"]["nauvis"])
+-- planet.name = "cube1"  
+-- planet.distance = 1000  
+-- planet.orientation = 0.625  
+-- planet.localised_name = "?"  
+-- planet.draw_orbit = false  
+-- planet.icon = "__Starmap_Nexuz__/graphics/icons/cube.png"  
+-- planet.icon_size = 1381  
+-- planet.starmap_icon = "__Starmap_Nexuz__/graphics/icons/cube.png"  
+-- planet.starmap_icon_size = 1381  
+-- planet.magnitude = 10.0  
+-- data:extend { planet }

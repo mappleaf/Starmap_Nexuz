@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2024-12-5
+  Info:
+    - Update the prerequisites.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2024-12-5
+  Info:
+    - Add compatibility with erm_zerg and erm_toss.
+    - Add an interstellar route, requiring travel to each planet via this route to make the starmap clearer.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 2024-12-2
   Info:
