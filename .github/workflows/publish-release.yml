@@ -47,4 +47,4 @@ jobs:
         artifactErrorsFailBuild: true
         # updateOnlyUnreleased: true # Can we have production at home? Production at home:
         tag: "v${{ steps.getversion.outputs.value }}"
-        artifacts: "${{ steps.getname.outputs.value }}_${{ steps.getversion.outputs.value }}.zip"
+        artifacts: "./build/${{ steps.getname.outputs.value }}_${{ steps.getversion.outputs.value }}.zip"
