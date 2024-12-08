@@ -36,7 +36,8 @@ data:extend({
         type = "space-location", -- 定义一个名为 "solar-system-edge新恒星系西南边境" 的太空位置
         name = "sye-nexuz-sw", -- 名称标识符，供代码引用
         localised_name = "Nexuz solar system edge-SW",  
-        icon = "__space-age__/graphics/icons/solar-system-edge.png", -- 图标路径，用于在界面或地图上显示此位置的图标        
+        icon = "__Starmap_Nexuz__/graphics/icons/nexuz.png",  -- 星球图标路径
+        icon_size = 256,  
         order = "f[solar-system-edge]", -- 排序字段，用于确定在用户界面中显示的顺序        
         subgroup = "planets", -- 分类子组名称，表明该条目属于 "planets" 子组    
         draw_orbit = false,    
