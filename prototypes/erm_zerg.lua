@@ -3,7 +3,7 @@ if mods["erm_zerg"] then
     
     if char then
         char.orientation = 0.138
-        char.distance = 165
+        char.distance = 187
         char.draw_orbit = false
         char.starmap_icon = "__Starmap_Nexuz__/graphics/icons/zerg.png"  
         char.starmap_icon_size = 686  

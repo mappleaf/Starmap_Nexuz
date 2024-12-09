@@ -1,6 +1,16 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.5.2
+Version: 0.6.0
+Date: 2024-12-9
+  Info:
+    - Add compatibility with Planet Arrakis(Early Alpha Version).
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
 Date: 2024-12-8
+  Info:
+    - Fix the factory locations for the Zerg and Protoss planets.
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 2024-12-9
   Info:
     - Clean up unnecessary planetary resources
     - Optimize icons and text

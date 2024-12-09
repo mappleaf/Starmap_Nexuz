@@ -1,11 +1,13 @@
 require "prototypes.tenebris"
 require "prototypes.maraxsis"
 require "prototypes.naufulglebunusilo"
-require "prototypes.factorissimo-2-notnotmelon"
 require "prototypes.erm_zerg"
 require "prototypes.erm_toss"
 require "prototypes.cube"
 require "prototypes.terrapalus"
+require "prototypes.arrakis"
+
+require "prototypes.factorissimo-2-notnotmelon"
 
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
