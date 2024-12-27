@@ -9,9 +9,9 @@ script.on_init(function()
     local modify_space_connection = settings.startup["modify_space_connection"].value
 
     -- 打印设置值（调试用）
-    log("Gleba to Nauvis length: " .. gleba_to_nauvis_length)
-    log("Nauvis to Nexuz length: " .. nauvis_to_nexuz_length)
-    log("Modify space connection enabled: " .. tostring(modify_space_connection))
+    -- log("Gleba to Nauvis length: " .. gleba_to_nauvis_length)
+    -- log("Nauvis to Nexuz length: " .. nauvis_to_nexuz_length)
+    -- log("Modify space connection enabled: " .. tostring(modify_space_connection))
 
     -- 如果设置启用新的星际旅行路线，进行相关修改
 
