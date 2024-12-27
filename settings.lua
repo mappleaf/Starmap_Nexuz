@@ -19,5 +19,14 @@ data:extend({
         minimum_value = 1,  -- 最小值
         maximum_value = 148257142,  -- 最大值
         order = "b[space-connection-sye-nauvis-ne-sye-nexuz-sw-length]"  -- 排序
+    },
+    -- 修改为 bool-setting
+    {
+        type = "bool-setting",  -- 更正这里的类型
+        name = "modify_space_connection",
+        localised_name = "Use the new interstellar travel route",
+        setting_type = "startup",
+        default_value = true,
+        order = "c"  -- 排序
     }
 })
