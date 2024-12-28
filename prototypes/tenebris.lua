@@ -10,9 +10,9 @@ if mods["tenebris"] then
     local modify_space_connection = settings.startup["modify_space_connection"].value -- 如果开启新的星际旅行路线，则修改 space-connection
     if modify_space_connection then
 
-        local fulgoratotenebris = data.raw["space-connection"]["fulgora-tenebris"]
-        if fulgoratotenebris then
-            fulgoratotenebris.from = "sye-nexuz-sw"
+        local ssetotenebris = data.raw["space-connection"]["solar-system-edge-tenebris"]
+        if ssetotenebris then
+            ssetotenebris.from = "sye-nexuz-sw"
         end
     end
 else
