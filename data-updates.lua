@@ -7,6 +7,8 @@ require "prototypes.erm_toss"
 require "prototypes.cube"
 require "prototypes.terrapalus"
 require "prototypes.arrakis"
+require "prototypes.Factorio-Tiberium"
+require "prototypes.intercontinental-rocketry-forked"
 
 --require "prototypes.factorissimo-2-notnotmelon"
 

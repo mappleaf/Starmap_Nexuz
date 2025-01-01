@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.9.0
+Date: 2024-12-30
+  Info:
+    - Add compatibility with Intercontinental Rocketry Forked.
+---------------------------------------------------------------------------------------------------
+Version: 0.8.0
+Date: 2024-12-30
+  Info:
+    - Add compatibility with Factorio and Conquer: Tiberian Dawn.
+---------------------------------------------------------------------------------------------------
+Version: 0.7.2
+Date: 2024-12-29
+  Info:
+    - Removed the Fulgora-Maraxsis route when the star system route is activated (can be disabled).
+---------------------------------------------------------------------------------------------------
 Version: 0.7.1
 Date: 2024-12-24
   Info:
